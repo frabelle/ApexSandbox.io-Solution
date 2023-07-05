@@ -1,12 +1,17 @@
 public String whichTwo(Integer a, Integer b, Integer c) {
     //code here
+    Integer result;
+
+    Integer a = b+c
+    Integer b = a+c
+    Integer c = a+b
 
     if(evaluateEquation(a,b,c)){
-        return 'a';
+        return "a";
     } else if(evaluateEquation(b,a,c)) {
-        return 'b';
+        return "b";
     } else if (evaluateEquation(c,a,b)){
-        return 'c';
+        return "c"
     }
 
 }
@@ -15,7 +20,7 @@ public Boolean evaluateEquation(Integer resultNumber, Integer number1, Integer n
     
     Integer result = number1 + number2;
 
-    if(resultNumber == result){
+    if(resultNumber = result){
         return true;
     }else{
         return false;
