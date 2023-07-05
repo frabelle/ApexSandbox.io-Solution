@@ -1,13 +1,5 @@
 public Boolean ascendingOrder(Integer a, Integer b, Integer c) {
     //code here
-Boolean result = ascendingOrder(2, 5, 10);
-System.assertEquals(true, result, '2, 5, and 10 are in ascending order');
-
-Boolean result = ascendingOrder(15, 14, 15);
-System.assertEquals(false, result, '15, 14, and 15 are not in ascending order');
-
-Boolean result = ascendingOrder(10, 14, 13);
-System.assertEquals(false, result, '10, 14, and 13 are not in ascending order');
 
     if (a >= b) {
         if (b >= c ) {
