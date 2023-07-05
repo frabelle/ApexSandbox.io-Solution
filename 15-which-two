@@ -11,7 +11,7 @@ public String whichTwo(Integer a, Integer b, Integer c) {
     } else if(evaluateEquation(b,a,c)) {
         return "b";
     } else if (evaluateEquation(c,a,b)){
-        return "c"
+        return "c";
     }
 
 }
