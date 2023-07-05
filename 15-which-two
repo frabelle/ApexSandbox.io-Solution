@@ -1,0 +1,23 @@
+public String whichTwo(Integer a, Integer b, Integer c) {
+    //code here
+
+    if(evaluateEquation(a,b,c)){
+        return 'a';
+    } else if(evaluateEquation(b,a,c)) {
+        return 'b';
+    } else if (evaluateEquation(c,a,b)){
+        return 'c';
+    }
+
+}
+
+public Boolean evaluateEquation(Integer resultNumber, Integer number1, Integer number2){
+    
+    Integer result = number1 + number2;
+
+    if(resultNumber = result){
+        return true;
+    }else{
+        return false;
+    }
+}
