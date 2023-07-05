@@ -7,11 +7,13 @@ public String whichTwo(Integer a, Integer b, Integer c) {
     Integer c = a+b
 
     if(evaluateEquation(a,b,c)){
-        return "a";
+        return 'a TESTER';
     } else if(evaluateEquation(b,a,c)) {
-        return "b";
+        return 'b  TESTER';
     } else if (evaluateEquation(c,a,b)){
-        return "c";
+        return 'c  TESTER';
+    } else{
+        return '';
     }
 
 }
