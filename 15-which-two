@@ -15,7 +15,7 @@ public Boolean evaluateEquation(Integer resultNumber, Integer number1, Integer n
     
     Integer result = number1 + number2;
 
-    if(resultNumber = result){
+    if(resultNumber == result){
         return true;
     }else{
         return false;
