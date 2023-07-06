@@ -5,7 +5,7 @@ public Boolean companionPlants(String plant1, String plant2) {
         if (plant1 == 'cucumbers' || plant1 == 'onions' ||
             plant2 == 'cucumbers' || plant2 == 'onions'){
             return true;
-        } else{
+        } else {
             return false;
         }
     } else if(plant1 == 'onions' || plant2 == 'onions'){
@@ -15,7 +15,6 @@ public Boolean companionPlants(String plant1, String plant2) {
         } else{
             return false;
         }
-    } 
     } else{
         return false;
     }
