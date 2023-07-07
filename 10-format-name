@@ -2,6 +2,7 @@ public String formatName(String firstName, String lastName) {
     //code here
 
     if(firstName != null){
+
         if(lastName != null){
             return lastName + ', ' + firstName;
         }
@@ -9,11 +10,13 @@ public String formatName(String firstName, String lastName) {
         return firstName;
 
     } else if(lastName != null){
+        
         if(firstName != null){
             return lastName + ', ' + firstName;
         }
 
         return lastName;
+
     } else{
         return '';
     }
