@@ -1,0 +1,15 @@
+public Boolean isPrime(Integer num) {
+    //code here
+    Boolean flag = true;
+
+    for (Integer i=2; i<num-1;i++;){
+
+        if(Math.mod(num,i)==0){
+            flag = false;
+            break;
+        }
+
+    }
+
+    return flag;
+}
