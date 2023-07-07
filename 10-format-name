@@ -3,13 +3,13 @@ public String formatName(String firstName, String lastName) {
 
     if(firstName != null){
         if(lastName != null){
-            return lastName + ' ' + firstName;
+            return lastName + ', ' + firstName;
         }
 
         return firstName;
     } else if(lastName != null){
         if(firstName != null){
-            return lastName + ' ' + firstName;
+            return lastName + ', ' + firstName;
         }
 
         return lastName;
