@@ -1,6 +1,6 @@
 public Integer fibonacci(Integer n) {
     //code here
-    Integer prevNumber = 0;
+    Integer prevNumber = n;
     Integer sumNumber;
 
     for (Integer i=0; i<n; i++){
